@@ -1,0 +1,57 @@
+aid: opendata-teagasc-ie
+name: Teagasc Open Data
+description: >-
+  Teagasc Open Data is a government agency open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 18 datasets.
+kind: government
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/opendata-teagasc-ie/refs/heads/main/apis.yml
+tags:
+  - Open Data
+  - CKAN
+  - Data Catalog
+  - DCAT
+  - Government Data
+  - Government Agency
+  - Ireland
+created: '2026-06-07'
+modified: '2026-06-07'
+specificationVersion: '0.19'
+apis:
+  - aid: opendata-teagasc-ie:catalog
+    name: Teagasc Open Data CKAN Action API
+    description: >-
+      CKAN Action API for Teagasc Open Data, ~18 datasets. Base URL https://opendata.teagasc.ie/api/3/action/.
+    humanURL: https://opendata.teagasc.ie
+    baseURL: https://opendata.teagasc.ie/api/3/action
+    tags:
+      - CKAN
+      - Action API
+      - Open Data
+      - Catalog
+      - REST
+      - JSON
+    properties:
+      - type: Documentation
+        url: https://docs.ckan.org/en/latest/api/
+      - type: Website
+        url: https://opendata.teagasc.ie
+      - type: x-api-endpoint
+        url: https://opendata.teagasc.ie/api/3/action/status_show
+      - type: x-ckan-version
+        value: '2.9.13'
+common:
+  - type: Website
+    url: https://opendata.teagasc.ie
+  - type: Documentation
+    url: https://docs.ckan.org/en/latest/api/
+  - type: Plans
+    url: plans/opendata-teagasc-ie-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/opendata-teagasc-ie-rate-limits.yml
+  - type: FinOps
+    url: finops/opendata-teagasc-ie-finops.yml
+  - type: Review
+    url: review.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

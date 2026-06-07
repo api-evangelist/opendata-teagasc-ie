@@ -1,0 +1,11 @@
+name: Teagasc Open Data
+url: https://raw.githubusercontent.com/api-evangelist/opendata-teagasc-ie/refs/heads/main/review.yml
+created: '2026-06-07'
+modified: '2026-06-07'
+reviews:
+  - date: '2026-06-07'
+    rating: 4
+    summary: Live CKAN API verified (v2.9.13), ~18 datasets.
+    endpoints:
+      - url: https://opendata.teagasc.ie/api/3/action/status_show
+        status: 200
