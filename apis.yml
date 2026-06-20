@@ -3,7 +3,7 @@ name: Teagasc Open Data
 description: >-
   Teagasc Open Data is a government agency open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 18 datasets.
 kind: government
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/opendata-teagasc-ie/refs/heads/main/apis.yml
 tags:
   - Open Data
